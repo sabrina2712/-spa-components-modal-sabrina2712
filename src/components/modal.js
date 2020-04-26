@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./modal.css";
+import ShowEmployee from "./employee";
 
 class Modal extends Component {
   constructor(props) {
@@ -25,7 +26,7 @@ class Modal extends Component {
           <button onClick={this.onClose} className="modal-close">
             x
           </button>
-          <h2 className="modal-heading">Modal window title goes here</h2>
+          <h2 className="modal-heading">{this.props.title}</h2>
           <p className="modal-para">
             The modal is centered horizontally and vertically There is a darker
             overlay, so the content below cannot be selected. When the content

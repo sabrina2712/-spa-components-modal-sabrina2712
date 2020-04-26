@@ -49,6 +49,10 @@ button:visited {
   box-shadow: black;
   border-radius: 5px;
 }
+.modal-heading {
+  margin: 5px;
+  padding: 10px;
+}
 
 #modal:target {
   opacity: 1;

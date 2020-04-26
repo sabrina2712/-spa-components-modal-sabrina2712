@@ -1,0 +1,44 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 800px;
+  border: solid 1px grey;
+}
+.items {
+  border: solid 1px grey;
+  width: 100px;
+  height: 100px;
+}
+
+.page-container {
+  margin: 0 auto;
+  border: 1px solid red;
+  width: 50%;
+}
+.container-item {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.employee {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid grey;
+}
+.head {
+  text-align: left;
+  padding: 35px;
+  height: 100px;
+  background-color: sandybrown;
+  font-size: 1.6em;
+}
+.text {
+  padding: 10px;
+  margin: 20px;
+}
+.num {
+  color: sandybrown;
+}
