@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+import Employees from "./employees.json";
 import "./modal.css";
-import ShowEmployee from "./employee";
 
 class Modal extends Component {
   constructor(props) {

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./employee.css";
 import ShowEmployee from "./employee";
+import Modal from "./modal";
 
 class EmployeePage extends Component {
   render() {

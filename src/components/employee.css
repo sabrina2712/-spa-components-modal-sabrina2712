@@ -42,3 +42,13 @@
 .num {
   color: sandybrown;
 }
+.contact-employee {
+  display: inline-flex;
+}
+.cont-item {
+  margin: 25px;
+  padding: 5px;
+}
+.modal-heading {
+  background-color: #e67e22;
+}
